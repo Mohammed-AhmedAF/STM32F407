@@ -1,0 +1,15 @@
+#ifndef _RCC_INTERFACE_H
+#define _RCC_INTERFACE_H
+
+#define RCC_PREPHIRAL_GPIOA 0
+#define RCC_PREPHIRAL_GPIOB 1
+#define RCC_PREPHIRAL_GPIOC 2
+#define RCC_PREPHIRAL_GPIOD 3
+#define RCC_PREPHIRAL_GPIOE 4
+#define RCC_PREPHIRAL_GPIOF 5
+
+#define RCC_PREPHIRAL_TIMER2 6
+
+void RCC_vidEnableClock(u8);
+
+#endif
